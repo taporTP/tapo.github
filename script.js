@@ -1,0 +1,11 @@
+$(function(){
+    $('#tapo').click(function(){
+        if($('.tapo').hasClass('open')){
+            $('.tapo').removeClass('open');
+            $('.tapo').slideDown();
+        }else{
+            $('.tapo').addClass('open');
+            $('.tapo').slideUp();
+        }
+    });
+});
