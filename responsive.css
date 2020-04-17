@@ -1,5 +1,5 @@
 @media(max-width:670px){
-  body{
-    width: 100%;
+  header,section{
+    width: 670px;
   }
 }
