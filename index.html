@@ -6,6 +6,7 @@
     <title>ドットインストールもう一度</title>
     <link rel="stylesheet" href="styles3.css">
     <link rel="stylesheet" href="responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -17,9 +18,9 @@
                 <p>↑クリックして</p>
             </div>
             <div class="info">
-                <h1>ターポー</h1>
+                <h1 id="tapo">ターポー<br>(挨拶ボタン)</h1>
                 <p>プログラミング初心者です</p>
-                <p>少しずつ勉強中です</p>
+                <p id="name" class="tapo">こんにちは、ターポーです(^^)</p>
                 <ul>
                     <li>
                         <a href="#" target="_brank">
@@ -68,7 +69,9 @@
             <p>(c) dotinstall</p>
         </footer>
     </section>
-        
+    
+    <script src="script.js"></script>
+    
     <script>
         'use strict';
 
