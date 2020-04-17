@@ -85,3 +85,13 @@ footer p{
     margin-bottom: 60;
     color: gray;
 }
+
+#tapo{
+    cursor: pointer;
+}
+#name{
+    display: none;
+}
+.open{
+    display: block;
+}
